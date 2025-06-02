@@ -42,16 +42,23 @@ x-=5;
 
 sleep(0.06);
 }
-while(y>=30) 
+while(y >= 200) 
 {
 clear();
 setColor(0,128,0);
 
 fillOval(x,y,100,100);
-y-=5;
-
+y+=5;
 
 sleep(0.06);
+}
+if(y>=200)
+{
+	
+}
+//eles
+{
+	
 }
 }
 
